@@ -2,5 +2,5 @@
 using GtcTool.Services;
 
 FederalRegisterService registerService = new FederalRegisterService();
-var response = registerService.GetFederalRegisterResponse();
+var response = await registerService.GetResponseJsonAsync();
 Console.WriteLine(response);

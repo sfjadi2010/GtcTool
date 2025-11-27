@@ -10,7 +10,7 @@ public class Document
     public string PublicInspectionUrl { get; set; } = default!;
     public string PublicationDate { get; set; } = default!;
     public IList<Agency> Agencies { get; set; } = new List<Agency>();
-    public string Excepts { get; set; } = default!;
+    public string Excerpts { get; set; } = default!;
 
     public override string ToString()
     {
